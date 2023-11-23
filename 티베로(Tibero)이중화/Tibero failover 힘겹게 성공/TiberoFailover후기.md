@@ -11,7 +11,7 @@ https://technet.tmaxsoft.com/upload/download/online/tibero/pver-20160406-000002/
 Base 방식의 이중화는 다음과 같이 하면된다. 
 
 Base.Driver=com.tmax.tibero.jdbc.TbDriver
-Base.Url=jdbc:tibero:thin:@(description=(failover=on)(load_balance=on)(address_list=(address=(host=127.0.0.1)(port=8629))(address=(host=개발서버ip입력)(port=개발서버port입력)))(DATABASE_NAME=데이터베이스이름은 일치시켜줌)(아이디입력,비밀번호입력))
+Base.Url=jdbc:tibero:thin:@(description=(failover=on)(load_balance=on)(address_list=(address=(host=127.0.0.1)(port=8629))(address=(host=개발서버ip입력)(port=개발서버port입력)))(DATABASE_NAME=데이터베이스이름은 일치시켜줌))
 Base.Url=jdbc:tibero:thin:@(description=(load_balance=on)(address_list=(address=(host=개발서버ip입력)(port=8629))(address=(host=59.15.185.6)(port=7111)))(DATABASE_NAME=데이터베이스이름은 일치시켜줌))
 Base.UserName=아이디입력
 Base.Password=비밀번호입력
